@@ -31,6 +31,12 @@ const App = () => {
         <li>
           <Link to="/app1/page-2">Page2</Link>
         </li>
+        <li>
+          <Link to="/app2/page-a">App2 PageA</Link>
+        </li>
+        <li>
+          <Link to="/app2/page-b">App2 PageB</Link>
+        </li>
       </ul>
     </>
   );

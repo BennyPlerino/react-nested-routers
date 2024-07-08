@@ -11,8 +11,9 @@ function Home() {
 const App = () => {
   return <>
     <h1>Shell</h1>
+    <div>Benny</div>
     
-    <BrowserRouter basename="/user/dashboard">          
+    <BrowserRouter>          
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/app1/*" element={<App1 />}/>
